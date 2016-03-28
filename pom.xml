@@ -17,6 +17,7 @@
     <modules>
         <module>activemq-service</module>
         <module>activemq-dynamic-service</module>
+        <module>activemq-dynamic-service-factory</module>
         <module>osgi-activemq-consumer</module>
         <module>camel-activemq-consumer</module>
     </modules>

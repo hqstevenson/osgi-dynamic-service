@@ -12,7 +12,7 @@
     </cm:managed-service-factory>
     -->
 
-    <bean class="com.pronoia.osgi.impl.ActiveMQServiceManager" init-method="init" destroy-method="destroy">
+    <bean class="com.pronoia.osgi.impl.ActiveMQServiceManagerFactory" init-method="init" destroy-method="destroy">
         <!-- component-managed beans are responsible for reading their own configuration on startup - the
              update-method will only be call when the PID changes.  However, if the property names follow
              JavaBean conventions, the values from an existing PID will be injected.
